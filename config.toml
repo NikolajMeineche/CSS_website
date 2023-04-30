@@ -4,17 +4,17 @@ description = "This is a project description"
 relativeURLs = true
 theme = "theme" 
 [params]
-    authors = ["Henrik Nielsen", "Inga Jensen", "Mikkel Andersen"]
+    authors = ["Magnus Harder", "Nikolaj Meineche", "Rebekka Madsen"]
     notebook = "/explainer-notebook.html"
     data = "https://drive.google.com"
     github = "https://github.com/peterampazzo/project-website-template"
     [[params.nav]]
-        label = "Data"
+        label = "Data Analysis"
         link = "/data-description"
     [[params.nav]]
-        label = "Network"
+        label = "Character Network"
         link = "/network-analysis"
     [[params.nav]]
-        label = "Text"
+        label = "Text Processing"
         link = "/text-analysis"
 
