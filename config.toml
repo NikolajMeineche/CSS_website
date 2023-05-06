@@ -1,5 +1,5 @@
-baseURL = "https://peterampazzo.github.io/project-website-template/"
-title = "Project Title"
+baseURL = "https://NikolajMeineche.github.io/CSS_Website/"
+title = "Unravelling Hogwarts Ties"
 description = "This is a project description"
 relativeURLs = true
 theme = "theme" 
@@ -7,14 +7,20 @@ theme = "theme"
     authors = ["Magnus Harder", "Nikolaj Meineche", "Rebekka Madsen"]
     notebook = "/explainer-notebook.html"
     data = "https://drive.google.com"
-    github = "https://github.com/peterampazzo/project-website-template"
+    github = "https://github.com/MagnusHarder/CSS_project"
     [[params.nav]]
-        label = "Data Analysis"
-        link = "/data-description"
+        label = "Temporal Analysis"
+        link = "/temporal-analysis"
     [[params.nav]]
-        label = "Character Network"
-        link = "/network-analysis"
+        label = "Muggles VS Wizards"
+        link = "/mvw"
     [[params.nav]]
-        label = "Text Processing"
-        link = "/text-analysis"
+        label = "Dumbledore's Army"
+        link = "/da"
+    [[params.nav]]
+        label = "Snapes Allegiance"
+        link = "/sa"
+    [[params.nav]]
+        label = "Black & Pettigrew"
+        link = "/bp"
 
