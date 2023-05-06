@@ -28,6 +28,7 @@ In summary, our main goal for the end user's experience was to provide a tool th
 
 The data can be downloaded in our Google Drive and the explainer notebook and GitHub is also available below.
 
+```
 df = pd.DataFrame()
 ```
 
