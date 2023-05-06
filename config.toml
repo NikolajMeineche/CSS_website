@@ -1,4 +1,4 @@
-baseURL = "https://NikolajMeineche.github.io/CSS_Website/"
+baseURL = "https://NikolajMeineche.github.io/CSS_Website"
 title = "Unravelling Hogwarts Ties"
 description = "This is a project description"
 relativeURLs = true
@@ -9,6 +9,9 @@ theme = "theme"
     data = "https://drive.google.com"
     github = "https://github.com/MagnusHarder/CSS_project"
     [[params.nav]]
+        label = "Data Analysis"
+        link = "/data-analysis"
+    [[params.nav]]
         label = "Temporal Analysis"
         link = "/temporal-analysis"
     [[params.nav]]
@@ -18,7 +21,7 @@ theme = "theme"
         label = "Dumbledore's Army"
         link = "/da"
     [[params.nav]]
-        label = "Snapes Allegiance"
+        label = "Snape's Allegiance"
         link = "/sa"
     [[params.nav]]
         label = "Black & Pettigrew"

@@ -1,6 +1,6 @@
 ---
-title: Temporal analysis
-prev: "/"
+title: Temporal Analysis
+prev: data-analysis
 next: mvw
 ---
 
