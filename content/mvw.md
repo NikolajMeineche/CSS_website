@@ -29,7 +29,7 @@ Secondly, the characters from network 0 in chapter 1-4 go from being in a single
 Thirdly, community 2 is quite untouched by the chapters, except for a few characters. This is because the network includes the Dursleys along with Harry Potter, since he spends his time in the beginning with these characters. However as the Wizarding World is introduced, the connection between the other wizard characters becomes stronger and thus he swaps community.
 
 (HER KAN VI INKLUDERE DET VIGTIGSTE ORD FRA HVER COMMUNITY)
-
+<hr class="border-b-2 border-gray-400 mt-8 mx-4">
 
 Looking at the degree distributions below we see that there are a couple of central characters, namely Vernon Dursley and Harry Potter, that have high degrees compared to the rest of the characters in the first chapters. However when looking at chapters 1-17 we almost see a straight line in the log-log scale, indicating something close to a heavy tailed distribution, meaning that some of the characters, make up for the majority of edge connections. This is also without considering weighting of edges, which would probably skew the distribution even more. 
 
@@ -39,8 +39,11 @@ Looking at the degree assortativity matrix we can also see that in both networks
 |![](/images/MugglesvWizards/Degree%20distribution.png)|
 |Matrix that shows the degree assortativity between characters.|
 |![](/images/MugglesvWizards/degree%20assortativity%20matrix.png)|
-
+<hr class="border-b-2 border-gray-400 mt-8 mx-4">
 
 Finally we can look at the modularity where we compare it with the average modularity of a random network. Here it can be seen that both networks are more modular than the average random network, however the network becomes less modular with more chapters, which indicate that characters interact more and more often across the different groups in the network.
 ![](/images/MugglesvWizards/modularity%20graphs.png)
 
+<hr class="border-b-2 border-gray-400 mt-30 mx0">
+
+In conclusion there seems to be a large change between the characters before and after the Wizarding World is introduced. This makes sense as a large part of the story and characters take place in here, and as more characters are introduced, the more intricate the network of characters will be.
