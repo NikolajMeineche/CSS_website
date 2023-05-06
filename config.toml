@@ -23,7 +23,5 @@ theme = "theme"
     [[params.nav]]
         label = "Snape's Allegiance"
         link = "/sa"
-    [[params.nav]]
-        label = "Black & Pettigrew"
-        link = "/bp"
+
 
