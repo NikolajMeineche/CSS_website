@@ -15,7 +15,7 @@ theme = "theme"
         label = "Temporal Analysis"
         link = "/temporal-analysis"
     [[params.nav]]
-        label = "Muggles VS Wizards"
+        label = "Muggles and Wizards"
         link = "/mvw"
     [[params.nav]]
         label = "Dumbledore's Army"

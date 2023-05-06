@@ -1,13 +1,44 @@
 ---
-title: Network analysis
+title: The Muggle World vs the Wizarding World
 prev: temporal analysis
 next: da
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nulla tellus, tempus sed lobortis quis, venenatis ac ante. Maecenas accumsan augue ultricies metus hendrerit, in ultrices urna fringilla. Suspendisse lobortis egestas magna, sit amet fermentum ligula tincidunt vitae. Suspendisse cursus non dui a vulputate. Cras vestibulum vulputate enim eu placerat. Ut scelerisque semper justo sit amet auctor. Aliquam sit amet iaculis tortor.
+A large part of the Harry Potter story takes place in the Wizarding World. This world has all sorts of amazing creatures and people. However, the Wizarding World is special due to the fact that it is set to take place parallel to our own world. Therefore it is of interest to see how Harry connects with people before the Wizarding World has been established in the books, in contrast to after it has been introduced. Therefore we have looked at chapter 1-4 in Harry Potter and the Philosophers Stone, as well as the collective network of the first 17 chapters of the first book.
 
-> Nulla in justo hendrerit, tincidunt mauris et, porta est. Donec in leo vitae est ultrices dapibus id nec tortor. Maecenas ut ipsum eu nisl cursus facilisis scelerisque eu ex. Aliquam euismod elementum libero, at vehicula ipsum.
+Beneath you can see a visualization of the graphs:
+<iframe
+  src="/images/MugglesvWizards/Network.html"
+  style="width:100%; height:700px;"
+></iframe>
 
-Nam commodo lorem quis tortor euismod, ut ultrices orci aliquet. Sed eget dui nec sem ullamcorper convallis id nec ante. Aliquam ultricies a massa quis semper. Donec suscipit augue ut sagittis hendrerit. Aliquam erat volutpat. Proin aliquet maximus nibh, id aliquet justo maximus at. Sed accumsan ante id aliquam pellentesque. Aliquam nec hendrerit quam. Suspendisse maximus eros sollicitudin, accumsan turpis eu, blandit nulla. Nunc lorem elit, molestie at libero gravida, placerat consectetur ante. Sed tincidunt viverra tellus a vehicula.
+Here it is evident that not only is the second network way larger, but there are also more communities surrounding Harry. The Dursley community that is domimant in the first network looks tiny compared to the network of wizards in the second. The vast amount of characters and interconnectons help build this world up from a readers point of view.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit lobortis turpis. Praesent porttitor, turpis eu posuere molestie, sem dolor scelerisque sapien, eu aliquet ante felis ac metus. Pellentesque semper ultricies urna. Aenean auctor, turpis ut convallis ultrices, eros tellus bibendum risus, eu varius velit ante et diam. In suscipit lorem orci, eu placerat nibh dignissim ut. Nullam consequat nisl dui, in ornare risus porttitor sed. Integer vitae nibh semper purus ultrices rutrum. Pellentesque non diam ornare, imperdiet elit a, tempus lacus. Suspendisse viverra euismod dapibus.
+Looking a bit more into these two networks, we have compared the communities of the two networks
+
+|Distribution of size of communities|
+:-----------------------------------:
+|![](/images/MugglesvWizards/community_distribution.png)|
+|Matrix that shows community change|
+|![](/images/MugglesvWizards/community_change_matrix.png)|
+
+From the community change matrix we get three key observations: First of all community 1 does not change after the first 4 chapters up until chapter 17, which is probably due to community 1 consisting of characters such as Arabella Figg, Mr Paws, Snowy, Tufty, and Gordon, which are all relatively unknown characters in the Harry Potter universe that are probably not mentioned from the rest of the chapters. 
+
+Secondly, the characters from network 0 in chapter 1-4 go from being in a single community to being spread across 5 different communities, this makes sense since the characters include Albus Dumbledore, Minerva McGonagall, Rubeus Hagrid, Lily Potter, and James Potter, which are all magical people. In the first 4 chapters the magical world is very one dimensional, but as the magical world is revealed these characters are split into many sub-communities of the Wizarding World, which explains the scattering.
+
+Thirdly, community 2 is quite untouched by the chapters, except for a few characters. This is because the network includes the Dursleys along with Harry Potter, since he spends his time in the beginning with these characters. However as the Wizarding World is introduced, the connection between the other wizard characters becomes stronger and thus he swaps community.
+
+(HER KAN VI INKLUDERE DET VIGTIGSTE ORD FRA HVER COMMUNITY)
+
+
+Looking at the degree distributions...
+|Distribution of degree of communities|
+:-----------------------------------:
+|![](/images/MugglesvWizards/Degree%20distribution.png)|
+|Matrix that shows the degree assortativity between characters.|
+|![](/images/MugglesvWizards/degree%20assortativity%20matrix.png)|
+
+
+Finally we can look at the modularity...
+![](/images/MugglesvWizards/modularity%20graphs.png)
+
