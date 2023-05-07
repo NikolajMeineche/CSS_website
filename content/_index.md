@@ -6,7 +6,7 @@ next: data-analysis
 
 It should be no secret that all three of us consider ourselves huge "Potterheads". We have all read and loved the books multiple times. Thus for us, the reasoning behind starting this project was quite simple: We wanted to work with something we were passionate about and had some degree of expert knowledge in. Choosing this dataset, enabled us to work with more advanced network and text analysis techniques, such as temporal analysis of networks and wordclouds and sentiment analysis. By choosing this dataset we have proposed the following research questions:
 - [How do the Harry Potter books change over time?](#how-do-the-books-change-over-time)
-- [How do the characters, their interactions / relationships, and language surrounding them change throuhout key moments in the Harry Potter books?](#how-do-the-characters-their-interactions--relationships-and-language-surrounding-them-change-throughout-key-moments-in-the-harry-potter-books)
+- [How do the characters, their interactions / relationships, and language surrounding them change throughout key moments in the Harry Potter books?](#how-do-the-characters-their-interactions--relationships-and-language-surrounding-them-change-throughout-key-moments-in-the-harry-potter-books)
 
 ![test](/images/HarryvVolde.png)
 
@@ -22,37 +22,13 @@ It is no secret that what makes a book or series of book exciting to read are it
 - [The Muggle world vs. the Wizarding world](/mvw): A magical (pun intended) contrast in the first book is the distinction between the first 3 chapters of book one and the remaining part of the first book. The first 3 chapters are set in the Muggle world, where Harry is treated as an outcast and is bullied by his cousin Dudley. The remaining part of the book is set in the Wizarding world, where Harry is treated as a hero and is loved by everyone. We would thus expect to see a clear distinction in the character graphs (if nothing else, simply because of the sheer amount of new characters introduced in the wizarding world) and the sentiment of the books shifting to being more positive.
 - [The establishment of Dumbledore's Army](/da): In the fifth book, Harry, Ron, Hermione and other Hogwards pupils establish Dumbledore's Army, a secret organisation that teaches students defensive spells to protect themselves against the dark arts as an answer to the reign of terror under the new headmistress Dolores Umbridge. We would thus expect to see a clear distinction in the character graphs, where the members of Dumbledore's Army are more closely connected to each other, and the sentiment of the books shifting to being more hopeful.
 - [Snape's True allegiance](/sa): In the ending of book 6, Severus Snape goes on to kill Albus Dumbledore. This is a huge shock to the reader, as Snape has been portrayed as a good guy (if not suspicious) throughout the entire series. However in book 7, it is later revealed that Snape was in fact a double agent, and was working for Dumbledore all along. We would thus expect to see a clear distinction in the character graphs, where Snape is more closely connected to the Death Eaters after killing Dumbledore and then is linked heavily to especially Dumbledore and Lily Potter after his true alliance is revealed. From a text perspective, we would expect to see Snape's portrayal going from neutral, to negative, to positive (if not still somewhat negative, but with a sad tone).
-- [Sirius Black and Peter Pettigrew's true allegiances](/bp): Throughout book 3, Sirius Black is treated as a criminal death eater, who is responsible for Voldemort finding and killing Harry's parents, while Peter Pettigrew is described as the hero who died trying to save Harry's parents. Towards the ending of book 3, Sirius Black is revealed to be Harry's godfather and Peter Pettigrew is revealed to be alive and the one who betrayed Harry's parents. We would thus expect to see a clear distinction in the character graphs, where Sirius Black is more closely connected to Harry and the Order of the Phoenix, and Peter Pettigrew is more closely connected to Voldemort and the Death Eaters after this revelation. From the text, we would expect to see Sirius Black's portrayal going from negative, to positive, and Peter Pettigrew's portrayal going from positive, to negative.
 
 In summary, our main goal for the end user's experience was to provide a tool that could help them explore the Harry Potter books in a new and way. We wanted to create new-found excitement in the user's mind about this pheominal books series, and give some reasoning behind what makes them so good, namely its dynamically changing and expanding world of characters, their motives and relationships.
 
 The data can be downloaded in our Google Drive and the explainer notebook and GitHub is also available below.
 
-```
-df = pd.DataFrame()
-```
-
-Sed id orci ullamcorper, commodo sapien in, scelerisque nunc. Duis posuere sed nisl in gravida. Pellentesque rutrum justo ut mi tempus dignissim. Ut pulvinar quis urna ut molestie. Pellentesque nec arcu metus. Vivamus non rutrum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-![](https://source.unsplash.com/random/?Copenhagen)
-
-Phasellus viverra tellus viverra purus placerat, et lacinia mauris tristique. Nam semper venenatis lorem, nec ullamcorper tortor dignissim eget. Etiam non ipsum sed neque pharetra ullamcorper. Praesent ultrices ipsum varius dictum lacinia. Nulla placerat magna augue, volutpat rutrum nulla finibus sed. Phasellus maximus mi sit amet risus mattis, porta rhoncus elit dictum. Donec vel viverra lectus, vitae elementum arcu. Quisque quis molestie elit. Cras eget tellus vitae risus fermentum bibendum vitae ac turpis. Praesent mi eros, scelerisque sit amet sem at, hendrerit accumsan ligula.
-
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec mauris aliquet, convallis ligula vel, mollis est. Fusce accumsan massa vel lectus dapibus, at vehicula elit auctor.
-
-| Column 1  | Column 2  |  Column 3 |
-|---|---|---|
-| 1 | 4 | 7 |
-| 2 | 5 | 8 |
-| 3 | 6 | 9 |
-
-## [Explainer Notebook](explainer-notebook.html)
-
-Aenean non augue vulputate, bibendum ligula ac, euismod arcu. Proin consequat, urna at lobortis sodales, ligula nulla molestie dolor, et interdum nulla arcu eu lacus. Aenean maximus mi vel augue blandit, quis vehicula libero egestas. In mollis nibh in turpis sodales, eget luctus sem pretium. Integer lobortis diam vel nisi laoreet, ut condimentum risus ultrices. Praesent diam risus, imperdiet at lorem in, hendrerit auctor ex.
 
 <iframe
   src="Networks.html"
-  style="width:100%; height:1200px;"
+  style="width:100%; height:700;"
 ></iframe>
-
-Test 
