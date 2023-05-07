@@ -16,12 +16,14 @@ The following figure shows the evolution of the network over time. The nodes are
   style="width:100%; height:750px"
 ></iframe>
 
-Further to understand the difference between each book the following figure displays to most signifcant words for each book. The words are extracted from the text of the book and the size of the word is proportional to the significance of the word in the book compared with the words in the other. 
+Further to understand the difference between each book the following figure displays to most signifcant words for each book. The words are extracted from the text of the book and the size of the word is proportional to the significance of the word in the book compared with the words in the other. Notably is how significant horcrux is in the both the 6'th and 7'th book.
 
 <iframe
-
+  src="/WordCloud.html"
+  style="width:100%; height:750px"
 ></iframe>
 
+Here it can be observed how the text clealy follow each individual plot, with mom (Harry and the mirror) and turban (Proffesor Querriel) are significant words in the first book. Diary, pipes and basilisk in the second. And so forth.
 ## Breaking down the networks
 
 Understanding how the network changes over time in terms of character, interactions can be a challeging task if simplify oberserving and trying to understand the internal structure of network. When a network grows in size key statistics help us under stand the network.
@@ -85,7 +87,6 @@ As reflected in the words clouds of the books the topics of the books change ove
 ![](/images/Temporal/Licks.png)
 
 This development is reflected in above figure how the books matures over time.
-
 
 
 

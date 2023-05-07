@@ -7,17 +7,36 @@ next: sa
 An interesting moment in the Harry Potter books is the formation of Dumbedore's Army, whicthis event intuitively shouldh from a character perspective forms a lot of bonds between characters that weren't closely connected before. This means that a large amount of edges should be made, after the formation of the army. As well as this, some of the students also team up with professors and janitors in the form of the Inquisitorial Squad. When regarding chapters 1-17 and 18-38 in book 5 of the series, we get the following before and after pictures of the network, in regards to the formation of Dumbledore's Army:
 
 <iframe
-  src="/images/Dumbledores_army/Network.html"
-  style="width:100%; height:700px;"
+  src="/images/DumbleArmy/Networks.html"
+  style="width:100%; height:750px;"
 ></iframe>
 
 Here it is apparent that while there may not be way more communities in the latter network, it does seem like the characters in the first network are generally connected across groups, while everything seems to be directly connected to the main characters in the second network. This shows that after the formation of the army, the story starts to revolve around the group and their collected actions.
 
 
 
-|![](/images/Dumbledores_army/community%20distributions.png)|
+|![](/images/DumbleArmy/CommunitryDist.png)|
 :-----------------------------------:
-|![](/images/Dumbledores_army/community%20change%20matrix.png)|
+|![](/images/DumbleArmy/CommunityChange.png)|
+
+### Book 5 Chapters 1-17
+| Community 0                   | Community 1                   | Community 2                            | Community 3                   | Community 4                   |
+|-------------------------------|-------------------------------|----------------------------------------|-------------------------------|-------------------------------|
+| Harry Potter                  | Lord Voldemort               | Sirius Black                           | Fred Weasley                  | Draco Malfoy                  |
+| Ron Weasley                   | Dudley Dursley               | Remus Lupin                            | George Weasley                | Gregory Goyle                 |
+| Hermione Granger              | Vernon Dursley               | Wizard   | Ginny Weasley                 | Pansy Parkinson               |
+| Albus Dumbledore              | Three Muggle boys            | Molly Weasley                          | Neville Longbottom            | Lucius Malfoy                 |
+| Dolores Umbridge              | Petunia Dursley              | Arthur Weasley                         | Cho Chang                     | Vincent Crabbe                |
+
+### Book 5 Chapters 18-38
+| Community 0            | Community 1        | Community 2           | Community 3          | Community 4          |
+|------------------------|--------------------|-----------------------|----------------------|----------------------|
+| Harry Potter           | Sirius Black       | Neville Longbottom    | Dudley Dursley       | George Weasley       |
+| Ron Weasley            | Remus Lupin        | Ginny Weasley         | Vernon Dursley       | Fred Weasley         |
+| Hermione Granger       | Molly Weasley      | Draco Malfoy          | Petunia Dursley      | Ali Bashir           |
+| Albus Dumbledore       | Dai Llewellyn      | Lord Voldemort       | Arabella Figg        | Angelina Johnson     |
+| Dolores Umbridge       | Black Lake         | Luna Lovegood         | Dementors            | Alicia Spinnet       |
+
 
 From the community distributions we see that characters are generally split into smaller communities in the later chapters, which strengthens the idea that more of the story line becomes more focused on the main group in the later chapters. It can also be seen that most of the communities have their characters scattered in new communities, which emphasizes the fact that this is a moment where many new connections are formed.
 
@@ -32,13 +51,13 @@ Regarding the degree distributions below it can be observed that the later chapt
 
 (AFSNIT OM DEGREE ASSORTATIVITY MAtrix)
 
-|![](/images/Dumbledores_army/Degree%20distribution.png)|
+|![](/images/DumbleArmy/DegreeDist.png)|
 :-----------------------------------:
-|![](/images/Dumbledores_army/Degree%20assortativity%20matrix.png)|
+|![](/images/DumbleArmy/DegreeAssort.png)|
 <hr class="border-b-2 border-gray-400 mt-8 mx-4">
 
 In the following plots it is evident that compared to a random network, the modularity increases significantly in the later chapters even though the total modularity drops a bit. This aligns very well with the previous analyses of the network, that suggest that the army strengthens the importance of the central group of characters.
-![](/images/Dumbledores_army/Modularity%20graphs.png)
+![](/images/DumbleArmy/ModularityTest.png)
 
 <hr class="border-b-2 border-gray-400 mt-30 mx0">
 
