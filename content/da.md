@@ -4,7 +4,7 @@ prev: mvw
 next: sa
 ---
 
-An interesting moment in the Harry Potter books is the formation of Dumbedore's Army, whicthis event intuitively shouldh from a character perspective forms a lot of bonds between characters that weren't closely connected before. This means that a large amount of edges should be made, after the formation of the army. As well as this, some of the students also team up with professors and janitors in the form of the Inquisitorial Squad. When regarding chapters 1-17 and 18-38 in book 5 of the series, we get the following before and after pictures of the network, in regards to the formation of Dumbledore's Army:
+An interesting moment in the Harry Potter books is the formation of Dumbedore's Army, witch is event intuitively shouldh from a character perspective forms a lot of bonds between characters that weren't closely connected before. This means that a large amount of edges should be made, after the formation of the army. As well as this, some of the students also team up with professors and janitors in the form of the Inquisitorial Squad. When regarding chapters 1-17 and 18-38 in book 5 of the series, we get the following before and after pictures of the network, in regards to the formation of Dumbledore's Army:
 
 <iframe
   src="/images/DumbleArmy/Networks.html"
@@ -62,3 +62,9 @@ In the following plots it is evident that compared to a random network, the modu
 <hr class="border-b-2 border-gray-400 mt-30 mx0">
 
 In conclusion there seems to be a large change in character dynamics before and after the formation of Dumbledore's Army. This results in the story revolving around the army and the group of characters within it. It is also evident that many characters that appear before the formation of the army no longer appear after the formation, indicating that the formation is a pivitol moment in the book, that drives the main storyline to introduce new characters and interconnections between them.
+
+![](/images/DumbleArmy/SentimentDA.png)
+|![](/images/DumbleArmy/WordCloudBook517.png)|
+:-----------------------------------:
+|![](/images/DumbleArmy/WordCloudBook538.png)|
+

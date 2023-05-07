@@ -69,3 +69,11 @@ Here a large part of the difference between the community distributions is attri
 | Rubeus Hagrid            | Draco Malfoy                 | Wizard   | Hermione Granger               | Barnabas Deverill    | Dudley Dursley         |
 | George Weasley           | Bellatrix Lestrange           | Aberforth Dumbledore                      | Death                          | Arcus               | Hedwig                 |
 | Fleur Delacour           | Minerva McGonagall           | Sirius Black                              | Luna Lovegood                  | Loxias              | Barny Weasley          |
+
+
+
+![](/images/Snape6/SentimentSnape.png)
+
+|![](/images/Snape6/WordCloudBook626.png)|
+:-----------------------------------:
+|![](/images/Snape7/WordCloudBook733.png)|
