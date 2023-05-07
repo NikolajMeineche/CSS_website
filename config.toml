@@ -5,9 +5,9 @@ relativeURLs = true
 theme = "theme" 
 [params]
     authors = ["Magnus Harder", "Nikolaj Meineche", "Rebekka Madsen"]
-    notebook = "/explainer-notebook.html"
+    notebook = "/explainer_notebook.html"
     data = "https://drive.google.com"
-    github = "https://github.com/MagnusHarder/CSS_project"
+    github = "https://github.com/MagnusHarder/CSS_Project"
     [[params.nav]]
         label = "Data Analysis"
         link = "/data-analysis"

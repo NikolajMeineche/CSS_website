@@ -44,7 +44,20 @@ One noteworthy change in communities would be community 2, where Harry Potter, R
 
 It can also be seen from the community matrix that a rather large part of the characters from the first chapters are not mentioned in the final chapters and vice versa. This emphasizes that many characters appear either in the beginning or the end of the book, which can be interpreted as a significant turning point in the series.
 
-(HER KAN VI INKLUDERE DET VIGTIGSTE ORD FRA HVER COMMUNITY)
+
+![](/images/DumbleArmy/SentimentDA.png)
+
+
+
+
+
+
+|![](/images/DumbleArmy/WordCloudBook517.png)|
+:-----------------------------------:
+|![](/images/DumbleArmy/WordCloudBook538.png)|
+
+
+
 <hr class="border-b-2 border-gray-400 mt-8 mx-4">
 
 Regarding the degree distributions below it can be observed that the later chapters have a few more very high degree nodes that indicate that some nodes play a more central part of the later chapters, which matches well with what we previously observed. It can also be observed that the network of the later chapters seem to follow a more heavy tailed distribution which further emphasizes the previous observation.
@@ -63,8 +76,4 @@ In the following plots it is evident that compared to a random network, the modu
 
 In conclusion there seems to be a large change in character dynamics before and after the formation of Dumbledore's Army. This results in the story revolving around the army and the group of characters within it. It is also evident that many characters that appear before the formation of the army no longer appear after the formation, indicating that the formation is a pivitol moment in the book, that drives the main storyline to introduce new characters and interconnections between them.
 
-![](/images/DumbleArmy/SentimentDA.png)
-|![](/images/DumbleArmy/WordCloudBook517.png)|
-:-----------------------------------:
-|![](/images/DumbleArmy/WordCloudBook538.png)|
 

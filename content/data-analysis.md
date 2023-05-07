@@ -14,7 +14,7 @@ Along the network we have also constructed dynamic text for each character, so t
 When looking at some of the properties of the data:
 ![](/images/Network%20Properties%20per%20book.png)
 
-We see that the number of nodes and edges increase for each book, as more characters are introduced. We also see that the density increases for each book, as the number of edges increase faster than the number of nodes. It is rather interesting to see that the nodes and edges grow by after the same trend, but just at different orders of magnitude. Finally, we see that the network centralization decreases for each book, as the networks become more decentralized. This is due to the fact that the number of edges increase faster than the number of nodes, which means that the networks become more dense, and therefore more decentralized.
+We see that the number of nodes and edges increase for each book, as more characters are introduced. We also see that the density decreases for each book, as the number of possible edges increase faster than the number of actual edges. It is rather interesting to see that the nodes and edges grow after the same trend, but just at different orders of magnitude. Finally, we see that the network centralization decreases for each book, as the networks become more decentralized. This is due to the fact that the number of edges increase faster than the number of nodes, which means that the networks become less dense, and therefore more decentralized.
 
 From a network perspective, this means that the networks become more complex and decentralized as the books progress, which is in line with the narrative of the books, as the story as the books introduce more side characters and subplots.
 
