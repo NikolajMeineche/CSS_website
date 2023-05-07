@@ -4,10 +4,10 @@ prev: data-analysis
 next: mvw
 ---
 
-In the history of harry potter books, there are 7 books. The first book was published in 1997 and the last book was published in 2007. Troughout the books many characters are introduced and the groups in which the main characters engage change. Futher many many different obstacles and villans appear over the course of the history forcing the characters into new and unexpected situations promoting interactions between previously unknown/insignificant character or even enemies. In this section we aim to give insigth trough a temporal analysis of the books and the characters. The focus is to ovserve the changes in the network over time trough analysis of the accumulated network of each chapter/book.
+The main series of the Harry Potter books consist of 7 total books, spanning 199 chapters, 3,363 pages, and 772 characters. The first book was published in 1997 as a kids book, while 10 years later the last book was published. Troughout the books many characters are introduced and the groups, in which the main characters appear in, change. Further, many different obstacles and villains appear over the course of the history forcing the characters into new and unexpected situations promoting interactions between previously unknown/insignificant characters or even enemies. In this section, we aim to give insight through a temporal analysis of the books and the characters. The focus is to observe the changes in the network over time trough analysis of the accumulated network of each chapter/book.
 
-## Evolution of charcters and their interactions
-In order to observe the evolution of the characters and their interactions we have created a network for each chapter and book. The nodes of the network are the characters and the edges are the interactions between them. The edges are weighted by the number of interactions between the characters. 
+## Evolution of characters and their interactions
+In order to observe the evolution of the characters and their interactions, we have created a network for each chapter and book. The nodes of the network are the characters and the edges are the interactions between them. The edges are weighted by the number of interactions between the characters. 
 
 The following figure shows the evolution of the network over time. The nodes are colored by the community they belong to. The size of the nodes is proportional to the number of interactions of the character. The width of the edges is proportional to the number of interactions between the characters. (The end of each book is a checkpoint in the figure to show the evolution of the network over time)
 
@@ -16,19 +16,27 @@ The following figure shows the evolution of the network over time. The nodes are
   style="width:100%; height:750px"
 ></iframe>
 
-Further to understand the difference between each book the following figure displays to most signifcant words for each book. The words are extracted from the text of the book and the size of the word is proportional to the significance of the word in the book compared with the words in the other. Notably is how significant horcrux is in the both the 6'th and 7'th book.
+Further, to understand the difference between each book the following figure displays the most significant words for each book. The words are extracted from the text of the book and the size of the word is proportional to the significance of the word in the book compared with the words in the other. Here it can be observed how the text clearly follow each individual plot. Here are the most significant words for each book:
+1. Mom, Turban (Professor Quirrell), and Chessmen
+2. Diary, Pipes and Basilisk
+3. Scrabbers, executioner, and Expecto Patronum
+4. Champion, Triwizard, and Tournament
+5. Prophecy, (death) Eaters, and Inquisitor
+6. Horcruxes, Felix Felicis, and prophecy
+7. Deathly Hallows, Diadem, and locket
 
 <iframe
   src="/WordCloud.html"
   style="width:100%; height:750px"
 ></iframe>
 
-Here it can be observed how the text clealy follow each individual plot, with mom (Harry and the mirror) and turban (Proffesor Querriel) are significant words in the first book. Diary, pipes and basilisk in the second. And so forth.
+Thus the book networks, reveal several plot-twists from the stories, including the importance of Tom's Diary in the second book, the Triwizard Tournament in the fourth book, and what some of Voldemorts Horcruxes actually are in the seventh book.
+
 ## Breaking down the networks
 
 Understanding how the network changes over time in terms of character, interactions can be a challeging task if simplify oberserving and trying to understand the internal structure of network. When a network grows in size key statistics help us under stand the network.
 
-Further in order to access the theese values comparison with 20 random networks of same size and theoritically same number of links is carried out to understand the significance of the values. Allowing to pinpoint where the significance of the network lies.
+Further, in order to access the theese values comparison with 20 random networks of same size and theoritically same number of links is carried out to understand the significance of the values. Allowing to pinpoint where the significance of the network lies.
 
 The density of a networks describes the number of links in the network compared to the maximum number of links possible. Meaning that a network with a density of 1 is a complete network.
 
@@ -46,8 +54,7 @@ The density of a networks describes the number of links in the network compared 
 As can be seen in above figure the degree assortativity is negative. Meaning that the nodes with high degree link to nodes with low degree. This fits perfect with the previous observation that the new characters are introduced but they do not interact with the main characters. Also it is expected that a history of a book is not a random process and thus the degree assortativity is not zero. And since the history revolves around the main characters they would be the big center connecting the other characters in the universe
 
 
-
-To Summuarize previous observations yield that many new characters are introduced with the main characters but their significance over the course of the history fades. Currently information under standing how the interractions betwen less significant characters is sparse. The Clustering coefficient is a measure of how well connected the neighbors of a node are. Meaning that a node with high clustering coefficient has neighbors that are well connected. 
+To summuarize, previous observations yield that many new characters are introduced with the main characters but their significance over the course of the history fades. Currently information under standing how the interractions betwen less significant characters is sparse. The Clustering coefficient is a measure of how well connected the neighbors of a node are. Meaning that a node with high clustering coefficient has neighbors that are well connected. 
 
 The following figure shows the clustering coefficient of the network over time. 
 
@@ -66,7 +73,7 @@ As can be seen all nodes are very closely connected with an average shortest pat
 
 ## Key Characters
 
- To acces the significance of the characters the centrallity of their nodes in the networks are considered. The centrallity of a node is a measure of how important/central the node is in the network. 
+ To acces the significance of the characters the centrality of their nodes in the networks are considered. The centrallity of a node is a measure of how important/central the node is in the network. 
 
 
 ![](/images/Temporal/ComparedCentrallity.png)
@@ -80,9 +87,9 @@ The apperance of the chracters in each chapter reflect harry as the main charact
 
 The only points where harry poters centrallity decreases is the appearence of Snape and Dumbledore. Which reflects the moments where Snape and Dumbledore discuss key matters with Harry in which it is of utmost importance that Harry does not known, For example the fact that Snape is actually a good guy and that Dumbledore is dying or that harry is a horcrux.
 
-## Growing History and Audiance
+## Growing History and Audience
 
-As reflected in the words clouds of the books the topics of the books change over time. In the begning the books are more focused on the school life of Harry and his friends and the wonders of magic. Over time the books become more mature including more adult topics as first love problems and drame between friends. The books also become darker and more serious as the fight against Voldemort becomes more serious and the war between the good and evil becomes more serious introucing was and death. Consider for instance that in book two where charcters instantly die if they look in to the eyes of the bassilisk lurking in the pipes of the school - they somehow all manage to only opserve it trough reflections meaning that they turn to stone instead of dying. In the later books characters are killed in the most brutal ways without hesitation.
+As reflected in the words clouds of the books the topics change over time. In the begning the books are more focused on the school life of Harry and his friends with the wonders of magic. Over time the books become more mature including more adult topics as first love problems and drame between friends. The books also become darker and more serious as the fight against Voldemort becomes more serious and the war between the good and evil becomes more serious introucing was and death. Consider for instance that in book two where charcters instantly die if they look in to the eyes of the bassilisk lurking in the pipes of the school - they somehow all manage to only opserve it trough reflections meaning that they turn to stone instead of dying. In the later books characters are killed in the most brutal ways without hesitation.
 
 ![](/images/Temporal/Licks.png)
 

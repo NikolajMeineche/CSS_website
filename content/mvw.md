@@ -46,6 +46,8 @@ Secondly, the characters from network 0 in chapter 1-4 go from being in a single
 
 Thirdly, community 2 is quite untouched by the chapters, except for a few characters. This is because the network includes the Dursleys along with Harry Potter, since he spends his time in the beginning with these characters. However as the Wizarding World is introduced, the connection between the other wizard characters becomes stronger and thus he swaps community.
 
+
+
 <hr class="border-b-2 border-gray-400 mt-8 mx-4">
 
 Looking at the degree distributions below we see that there are a couple of central characters, namely Vernon Dursley and Harry Potter, that have high degrees compared to the rest of the characters in the first chapters. However when looking at chapters 1-17 we almost see a straight line in the log-log scale, indicating something close to a heavy tailed distribution, meaning that some of the characters, make up for the majority of edge connections. This is also without considering weighting of edges, which would probably skew the distribution even more. 
@@ -62,20 +64,24 @@ Finally we can look at the modularity where we compare it with the average modul
 
 ![](/images/MVW/Modularity.png)
 
+In conclusion, there seems to be a large change between the characters before and after the Wizarding World is introduced. This makes sense as a large part of the story and characters take place in here, and as more characters are introduced, the more intricate the network of characters will be.
+
 <hr class="border-b-2 border-gray-400 mt-30 mx0">
 
-In conclusion there seems to be a large change between the characters before and after the Wizarding World is introduced. This makes sense as a large part of the story and characters take place in here, and as more characters are introduced, the more intricate the network of characters will be.
-
-
-
-
-### CHaracter ind her?
-
-Diving further into the characters in the communities in this moments, we can also examine the text that surrounds the most important characters. Looking into the sentiment and word clouds of Harry Potter, Ron Weasley, Hermione Granger, Cho Chang, Dolores Umbridge which can be seen below:
+Diving further into the characters in the communities in this moments, we can also examine the text that surrounds the most important characters. Looking into the sentiment and word clouds of some of the key characters which can be seen below:
 
 ![](/images/MVW/SentimentMVW.png)
+
+Looking at the sentiment characters like Harry, Hagrid, and Dudley seem to be portrayed in the neutral sentiment range, while Dumbledore is mostly portrayed positively, and Quirrel is portrayed mostly negatively. The latter two make sense, as they are known for being good and evil respectively. There is however a visible increase in Harry's average sentiment score, after the fourth chapter, which indicates that the switch to the wizarding world is mostly a positive change for him. 
+
+Looking into the word clouds for the characters before and after Harry entering the wizarding world we get the following:
 
 |![](/images/MVW/WordCloud4.png)|
 :-----------------------------------:
 |![](/images/MVW/WordCloud17.png)|
 
+In the worldcloud of the first four chapters we see how there for all four characters is a big focus the Durley familiy. This makes sense since the first four chapters are mostly about Harry's life with the Dursleys. However in the worldcloud of the last 17 chapters we see how the focus is more on the magical world and the characters that are introduced here.
+
+Dursley apperance in the first four chapters is focused on food (sausages/juicy) along with the significant scene where provides him with a pig tail using his Umbrelle wand(present in both their wordclouds).
+
+For Dumbledore and Harry potter we see how the Philisopher's stone becomes a key part of their indenitety in the final stage of book. Also Professor Quirrell is heavily influced by his obsesion to get the stone from the mirror. 
