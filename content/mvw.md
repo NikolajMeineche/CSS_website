@@ -33,7 +33,7 @@ Looking at the degree distributions below we see that there are a couple of cent
 
 (FAKTA TJEK DETTE AFSNIT)
 Looking at the degree assortativity matrix we can also see that in both networks, there seems to be a tendency for higher values away from the diagonal of the matrix(except for a few cases, which are more prevalent in chapters 1-4). This intuitively means that characters with many connections tend to interact with characters without many connections. And vice versa if many values lie close to the diagonal, central characters will probably interact with other central characters allowing to grasp which characters that are more important to the story. By looking at the matrix we can see that the latter is only the case in few instances. Therefore it can be concluded that the main characters, like Harry, tend to interact with many side characters in both the early and later chapters. This makes sense given the large amount of side characters, that only get few mentions throughout the book.
-|Distribution of degree of communities|
+
 |![](/images/MugglesvWizards/Degree%20distribution.png)|
 :-----------------------------------:
 |![](/images/MugglesvWizards/degree%20assortativity%20matrix.png)|
