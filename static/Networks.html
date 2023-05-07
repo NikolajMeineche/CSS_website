@@ -40,38 +40,78 @@
   background-color: #717171;
 }
 
+.tiles {
+    width: 100%;
+    height: 50px;
+    position: center;
+  }
+.tiles h1 {
+    display: none;
+}
+
+.tiles h1 .center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+
 </style>
 
 
 <body>
+<div class="tiles">
+    <h1 id="title-1" alt = "Title 1" > Book 1 </h1> 
+    <h1 id="title-2" alt = "Title 2" > Book 2 </h1>
+    <h1 id="title-3" alt = "Title 3" > Book 3 </h1>
+    <h1 id="title-4" alt = "Title 4" > Book 4 </h1>
+    <h1 id="title-5" alt = "Title 5" > Book 5 </h1>
+    <h1 id="title-6" alt = "Title 6" > Book 6 </h1>
+    <h1 id="title-7" alt = "Title 7" > Book 7 </h1>
+</div>
+
+
 
 <div class="slider">
-    <img id="img-1" src="images/Book1.png" alt="Image 1"/>
-    <img id="img-2" src="images/Book5 18-38.png" alt="Image 2"/>
-    <img id="img-3" src="images/CompleteNetwork.png" alt="Image 3"/>
+    <img id="img-1" src="images/Books/Book1.png" alt="Image 1"/>
+    <img id="img-2" src="images/Books/Book2.png" alt="Image 2"/>
+    <img id="img-3" src="images/Books/Book3.png" alt="Image 3"/>
+    <img id="img-4" src="images/Books/Book4.png" alt="Image 4"/>
+    <img id="img-5" src="images/Books/Book5.png" alt="Image 5"/>
+    <img id="img-6" src="images/Books/Book6.png" alt="Image 6"/>
+    <img id="img-7" src="images/Books/Book7.png" alt="Image 7"/>
     </div>
 <div class="navigation-button">
     <span class="dot active" onclick="changeSlide(0)"></span>
     <span class="dot" onclick="changeSlide(1)"></span>
     <span class="dot" onclick="changeSlide(2)"></span>
+    <span class="dot" onclick="changeSlide(3)"></span>
+    <span class="dot" onclick="changeSlide(4)"></span>
+    <span class="dot" onclick="changeSlide(5)"></span>
+    <span class="dot" onclick="changeSlide(6)"></span>
     </div>
 
 <script>
 var imgs = document.querySelectorAll('.slider img');
 var dots = document.querySelectorAll('.dot');
+var titles = document.querySelectorAll('.tiles h1');
 var currentImg = 0; // index of the first image 
 const interval = 3000; // duration(speed) of the slide
-
+titles[currentImg].style.display = 'block';
 function changeSlide(n) {
     for (var i = 0; i < imgs.length; i++) { // reset
     imgs[i].style.opacity = 0;
     dots[i].className = dots[i].className.replace(' active', '');
+    titles[i].style.display = 'none';
     }
+
 
     currentImg = n;
 
     imgs[currentImg].style.opacity = 1;
     dots[currentImg].className += ' active';
+    titles[currentImg].style.display = 'block';
 }
 </script>
 </body>
