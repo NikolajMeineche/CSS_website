@@ -15,10 +15,8 @@ Here it is apparent that while there may not be way more communities in the latt
 
 
 
-|Distribution of size of communities|
-:-----------------------------------:
 |![](/images/Dumbledores_army/community%20distributions.png)|
-|Matrix that shows community change|
+:-----------------------------------:
 |![](/images/Dumbledores_army/community%20change%20matrix.png)|
 
 From the community distributions we see that characters are generally split into smaller communities in the later chapters, which strengthens the idea that more of the story line becomes more focused on the main group in the later chapters. It can also be seen that most of the communities have their characters scattered in new communities, which emphasizes the fact that this is a moment where many new connections are formed.
@@ -34,10 +32,8 @@ Regarding the degree distributions below it can be observed that the later chapt
 
 (AFSNIT OM DEGREE ASSORTATIVITY MAtrix)
 
-|Distribution of degree of communities|
-:-----------------------------------:
 |![](/images/Dumbledores_army/Degree%20distribution.png)|
-|Matrix that shows the degree assortativity between characters.|
+:-----------------------------------:
 |![](/images/Dumbledores_army/Degree%20assortativity%20matrix.png)|
 <hr class="border-b-2 border-gray-400 mt-8 mx-4">
 

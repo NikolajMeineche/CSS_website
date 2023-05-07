@@ -14,10 +14,9 @@ The climax of the 6th book ends with Snape killing professor Dumbledore in a hea
 Here it is evident that Snape appears in the same community as the Deatheaters and Voldemort in the chapters leading up to the reveal. However, after the reveal he appears in the same community as Harry, Dumbledore, Lilly and many of the other characters who are mainly opposing Voldemort.
 
 Exploring this in the community distributions as seen below:
-|Distribution of size of communities|
-:-----------------------------------:
+
 |![](/images/SnapesAllegiance/community%20distribution%20seven.png)|
-|Matrix that shows community change|
+:-----------------------------------:|
 |![](/images/SnapesAllegiance/community%20change%20matrix%20seven.png)|
 
 Here a large part of the difference between the community distributions is attributed to the fact that there are few chapters left after the reveal. This means that only few characters actually appear in these chapters. However due to the network being so small in the last chapters, it may be more interesting to look at the text analysis for these chapters.

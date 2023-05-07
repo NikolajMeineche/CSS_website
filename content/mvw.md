@@ -16,10 +16,8 @@ Here it is evident that not only is the second network way larger, but there are
 
 Looking a bit more into these two networks, we have compared the communities of the two networks
 
-|Distribution of size of communities|
-:-----------------------------------:
 |![](/images/MugglesvWizards/community_distribution.png)|
-|Matrix that shows community change|
+:-----------------------------------:
 |![](/images/MugglesvWizards/community_change_matrix.png)|
 
 From the community change matrix we get three key observations: First of all community 1 does not change after the first 4 chapters up until chapter 17, which is probably due to community 1 consisting of characters such as Arabella Figg, Mr Paws, Snowy, Tufty, and Gordon, which are all relatively unknown characters in the Harry Potter universe that are probably not mentioned from the rest of the chapters. 
@@ -36,9 +34,8 @@ Looking at the degree distributions below we see that there are a couple of cent
 (FAKTA TJEK DETTE AFSNIT)
 Looking at the degree assortativity matrix we can also see that in both networks, there seems to be a tendency for higher values away from the diagonal of the matrix(except for a few cases, which are more prevalent in chapters 1-4). This intuitively means that characters with many connections tend to interact with characters without many connections. And vice versa if many values lie close to the diagonal, central characters will probably interact with other central characters allowing to grasp which characters that are more important to the story. By looking at the matrix we can see that the latter is only the case in few instances. Therefore it can be concluded that the main characters, like Harry, tend to interact with many side characters in both the early and later chapters. This makes sense given the large amount of side characters, that only get few mentions throughout the book.
 |Distribution of degree of communities|
-:-----------------------------------:
 |![](/images/MugglesvWizards/Degree%20distribution.png)|
-|Matrix that shows the degree assortativity between characters.|
+:-----------------------------------:
 |![](/images/MugglesvWizards/degree%20assortativity%20matrix.png)|
 <hr class="border-b-2 border-gray-400 mt-8 mx-4">
 

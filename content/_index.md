@@ -6,7 +6,7 @@ next: data-analysis
 
 It should be no secret that all three of us consider ourselves huge "Potterheads". We have all read and loved the books multiple times. Thus for us, the reasoning behind starting this project was quite simple: We wanted to work with something we were passionate about and had some degree of expert knowledge in. Choosing this dataset, enabled us to work with more advanced network and text analysis techniques, such as temporal analysis of networks and wordclouds and sentiment analysis. By choosing this dataset we have proposed the following research questions:
 - [How do the Harry Potter books change over time?](#how-do-the-books-change-over-time)
-- [How do the characters, their interactions / relationships, and language surrounding them change throuhout key moments in the Harry Potter books?](#how-do-the-characters-their-interactions--relationships-and-language-surrounding-them-change-throughout-key-moments-in-the-harry-potter-books)
+- [How do the characters, their interactions / relationships, and language surrounding them change throughout key moments in the Harry Potter books?](#how-do-the-characters-their-interactions--relationships-and-language-surrounding-them-change-throughout-key-moments-in-the-harry-potter-books)
 
 ![test](/images/HarryvVolde.png)
 
@@ -30,7 +30,5 @@ The data can be downloaded in our Google Drive and the explainer notebook and Gi
 
 <iframe
   src="Networks.html"
-  style="width:100%; height:1200px;"
+  style="width:100%; height:700;"
 ></iframe>
-
-Test 
