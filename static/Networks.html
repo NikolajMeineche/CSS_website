@@ -45,30 +45,28 @@
     height: 50px;
     position: center;
   }
-.tiles h1 {
+.tiles h2 {
     display: none;
 }
 
-.tiles h1 .center {
+.tiles h2 .center {
   margin: auto;
   width: 50%;
   border: 3px solid green;
   padding: 10px;
 }
-
-
 </style>
 
 
 <body>
 <div class="tiles">
-    <h1 id="title-1" alt = "Title 1" > Book 1 </h1> 
-    <h1 id="title-2" alt = "Title 2" > Book 2 </h1>
-    <h1 id="title-3" alt = "Title 3" > Book 3 </h1>
-    <h1 id="title-4" alt = "Title 4" > Book 4 </h1>
-    <h1 id="title-5" alt = "Title 5" > Book 5 </h1>
-    <h1 id="title-6" alt = "Title 6" > Book 6 </h1>
-    <h1 id="title-7" alt = "Title 7" > Book 7 </h1>
+    <h2 id="title-1" alt = "Title 1" > 1. Harry Potter and the Philosopher's Stone </h2> 
+    <h2 id="title-2" alt = "Title 2" > 2. Harry Potter and the Chamber of Secrets </h2>
+    <h2 id="title-3" alt = "Title 3" > 3. Harry Potter and the Prisoner of Azkaban </h2>
+    <h2 id="title-4" alt = "Title 4" > 4. Harry Potter and the Goblet of Fire </h2>
+    <h2 id="title-5" alt = "Title 5" > 5. Harry Potter and the Order of the Phoenix </h2>
+    <h2 id="title-6" alt = "Title 6" > 6. Harry Potter and the Half-Blood Prince </h2>
+    <h2 id="title-7" alt = "Title 7" > 7. Harry Potter and the Deathly Hallows </h2>
 </div>
 
 
@@ -95,7 +93,7 @@
 <script>
 var imgs = document.querySelectorAll('.slider img');
 var dots = document.querySelectorAll('.dot');
-var titles = document.querySelectorAll('.tiles h1');
+var titles = document.querySelectorAll('.tiles h2');
 var currentImg = 0; // index of the first image 
 const interval = 3000; // duration(speed) of the slide
 titles[currentImg].style.display = 'block';

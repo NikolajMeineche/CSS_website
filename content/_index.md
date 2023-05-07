@@ -14,7 +14,10 @@ It should be no secret that all three of us consider ourselves huge "Potterheads
 
  The Harry Potter books where written by J.K. Rowling and initially published between 26th June 1997 – 21st July 2007. The first book (Harry Potter and the Philosopher's Stone) was originally marketed as a kids-book, but as the next 6 books were published in a span of 10 years, the primary audience of the books grew up. We thus wanted to understand if the topics discussed in the books over time became more complex and more adult. This question is answered by 1) looking at the temporal analysis of the character graphs, to understand if the number of key characters and the number of interactions change over time to address a more mature reader with better memory, and 2) looking at the full book texts through wordclouds and Flesch's Reading Ease score over time to understand if the language and themes discuss become more adult and complex. Read more about the answers [here](/temporal-analysis).
 
-
+<!-- <iframe
+  src="/images/Temporal/Networks.html"
+  style="width:100%; height:750px"
+></iframe> -->
 
 # HOW DO THE CHARACTERS, THEIR INTERACTIONS / RELATIONSHIPS, AND LANGUAGE SURROUNDING THEM CHANGE THROUGHOUT KEY MOMENTS IN THE HARRY POTTER BOOKS?
 
@@ -28,7 +31,4 @@ In summary, our main goal for the end user's experience was to provide a tool th
 The data can be downloaded in our Google Drive and the explainer notebook and GitHub is also available below.
 
 
-<iframe
-  src="Networks.html"
-  style="width:100%; height:700;"
-></iframe>
+
